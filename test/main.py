@@ -83,13 +83,13 @@ def solve_gtsp():
                     break
             if curr == depot: break
         print("Optimal Route:", route)
+        print("Status:", status)
         return dist_matrix
     else:
         print("No solution found.")
 
 
 def getManualRouteDistance(routeString,distmatrix):
-    print(distmatrix)
     route = routeString
     total_dist = 0
     for i,point in enumerate(route):
@@ -114,7 +114,7 @@ def getManualRouteDistance(routeString,distmatrix):
     #150, 0
 #],distmatrix)
 distmatrix = solve_gtsp()
-
+getManualRouteDistance([5, 13, 15, 10],distmatrix)
 
 # optimal: [0, 4, 6, 12, 0]
 # gemini-thinking: [0, 4, 6, 12, 0]
