@@ -1,0 +1,14 @@
+[
+  {
+    "role": "system",
+    "content": "You are an expert Python developer and combinatorial optimization researcher specializing in the Generalized Traveling Salesman Problem (GTSP). Generate clean, robust, self-contained Python scripts."
+  },
+  {
+    "role": "user",
+    "content": "You are given a .gtsp file. Write a complete Python script that reads this .gtsp file from disk, solves the GTSP instance, and prints the final solution as a valid Python list literal. Requirements: The script must be self-contained. The input filename should be easy to change at the top of the script, for example: INPUT_FILE = \"instance.gtsp\". Parse the .gtsp file automatically. Solve the GTSP problem by selecting exactly one node from each cluster and producing a tour. The printed result must be only the final tour as a Python list literal, for example: [4, 12, 7, 19, 3]. Do not print explanations, logs, comments, costs, or extra text. The list should contain the selected node IDs in visiting order. The tour does not need to repeat the start node at the end. Use a reasonable heuristic if exact optimization is too slow. Prefer clear, robust code over advanced dependencies. Use only the Python standard library unless absolutely necessary. Very important: the program output must be parseable with Python's ast.literal_eval(output). Therefore, print exactly one Python list and nothing else. Here is the attached .gtsp file. Generate the Python solver script for this exact file format."
+  },
+  {
+    "role": "user",
+    "content": "Here is the .gtsp file: NAME: 12berlin52\nTYPE: GTSP\nCOMMENT: 52 locations in Berlin (Groetschel)\nDIMENSION: 52\nGTSP_SETS: 12\nEDGE_WEIGHT_TYPE: EUC_2D\nNODE_COORD_SECTION\n1 565.0 575.0\n2 25.0 185.0\n3 345.0 750.0\n4 945.0 685.0\n5 845.0 655.0\n6 880.0 660.0\n7 25.0 230.0\n8 525.0 1000.0\n9 580.0 1175.0\n10 650.0 1130.0\n11 1605.0 620.0\n12 1220.0 580.0\n13 1465.0 200.0\n14 1530.0 5.0\n15 845.0 680.0\n16 725.0 370.0\n17 145.0 665.0\n18 415.0 635.0\n19 510.0 875.0\n20 560.0 365.0\n21 300.0 465.0\n22 520.0 585.0\n23 480.0 415.0\n24 835.0 625.0\n25 975.0 580.0\n26 1215.0 245.0\n27 1320.0 315.0\n28 1250.0 400.0\n29 660.0 180.0\n30 410.0 250.0\n31 420.0 555.0\n32 575.0 665.0\n33 1150.0 1160.0\n34 700.0 580.0\n35 685.0 595.0\n36 685.0 610.0\n37 770.0 610.0\n38 795.0 645.0\n39 720.0 635.0\n40 760.0 650.0\n41 475.0 960.0\n42 95.0 260.0\n43 875.0 920.0\n44 700.0 500.0\n45 555.0 815.0\n46 830.0 485.0\n47 1170.0 65.0\n48 830.0 610.0\n49 605.0 625.0\n50 595.0 360.0\n51 1340.0 725.0\n52 1740.0 245.0\nGTSP_SET_SECTION:\n1 13 14 52 -1\n2 2 7 42 -1\n3 8 9 10 19 41 -1\n4 1 4 5 15 16 22 24 25 32 34 35 36 37 38 39 40 44 46 48 49 -1\n5 33 -1\n6 47 -1\n7 3 17 31 -1\n8 11 51 -1\n9 20 21 23 29 30 50 -1\n10 43 45 -1\n11 12 27 28 -1\n12 26 18 6 -1\nEOF"
+  }
+]

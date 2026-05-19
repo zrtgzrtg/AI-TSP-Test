@@ -1,5 +1,6 @@
+Here is the .gtsp file:
 NAME : 99pcb442_added10
-COMMENT : Modified from M89pcb442: 
+COMMENT : Modified from M89pcb442: added 10 GTSP clusters by moving two nearest nodes from 10 clusters with original size > 5
 TYPE : GTSP
 DIMENSION : 442
 GTSP_SETS: 99

@@ -1,0 +1,2 @@
+Write python code that solves the provided gtsp file. Make use of any external libraries or other tools
+The Goal is to find an optimal solution or get close to it

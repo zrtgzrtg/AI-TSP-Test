@@ -19,7 +19,7 @@ def getDistMatrix(node_coords,all_nodes):
 def solve_gtsp():
     model = cp_model.CpModel()
 
-    node_coords,clusters = manualProblem("4ulysses16","symmetric")
+    node_coords,clusters = manualProblem("M11berlin52","manual")
     
     
     all_nodes = list(node_coords.keys())
@@ -114,7 +114,7 @@ def getManualRouteDistance(routeString,distmatrix):
     #150, 0
 #],distmatrix)
 distmatrix = solve_gtsp()
-getManualRouteDistance([5, 13, 15, 10],distmatrix)
+getManualRouteDistance([42, 21, 31, 18, 22, 45, 19, 33, 51, 12, 13, 47],distmatrix)
 
 # optimal: [0, 4, 6, 12, 0]
 # gemini-thinking: [0, 4, 6, 12, 0]

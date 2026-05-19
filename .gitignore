@@ -6,3 +6,6 @@ LKH-3.0.14/
 CLKH-1.1/
 LKH-3.0.14
 .venv
+test/outputs
+GLKH-1.1/
+.env
