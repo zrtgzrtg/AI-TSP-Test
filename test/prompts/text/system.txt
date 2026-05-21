@@ -1,5 +1,5 @@
 Respond only with python code and expose a function like this 
-def solve() -> dict:
+def solve(filepath) -> dict:
     return {
         "route": [1,2,3,4]
         "objective": 123.45

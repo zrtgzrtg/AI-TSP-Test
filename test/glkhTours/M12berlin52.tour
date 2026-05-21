@@ -1,0 +1,20 @@
+NAME : 12berlin52.4083.tour
+COMMENT : Length = 4083
+COMMENT : Found by GLKH [Keld Helsgaun] Wed May 20 14:42:10 2026
+TYPE : TOUR
+DIMENSION : 12
+TOUR_SECTION
+13
+27
+51
+33
+43
+19
+18
+31
+42
+50
+16
+47
+-1
+EOF

@@ -1,11 +1,11 @@
 [
     {
         "role": "system",
-        "content": "Respond only with python code and expose a function like this \ndef solve() -> dict:\n    return {\n        \"route\": [1,2,3,4]\n        \"objective\": 123.45\n    }"
+        "content": "Respond only with python code and expose a function like this \ndef solve(filepath) -> dict:\n    return {\n        \"route\": [1,2,3,4]\n        \"objective\": 123.45\n    }"
     },
     {
         "role": "user",
-        "content": "Write python code that solves the provided gtsp file. Make use of any external libraries or other tools\nThe Goal is to find an optimal solution or get close to it"
+        "content": "Write python code that solves a gtsp file. Make use of any external libraries or other tools\nThe Goal is to find an optimal solution or get close to it. It should be able to work with a format that is\nlike the one provided. Then you should try to solve this optimally!"
     },
     {
         "role": "user",

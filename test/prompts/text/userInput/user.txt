@@ -1,2 +1,3 @@
-Write python code that solves the provided gtsp file. Make use of any external libraries or other tools
-The Goal is to find an optimal solution or get close to it
+Write python code that solves a gtsp file. Make use of any external libraries or other tools
+The Goal is to find an optimal solution or get close to it. It should be able to work with a format that is
+like the one provided. Then you should try to solve this optimally! If you use libraries that need 0 indexing revert that at the end.
