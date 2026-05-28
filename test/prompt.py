@@ -1,4 +1,5 @@
 
+from pathlib import Path
 import os
 import json
 def genPromptFromText(pathSystem,pathUserDir,outputPath):
@@ -20,7 +21,21 @@ def retPartPrompt(path,role):
         "role": role,
         "content": txt
     }
+def addProblemFile(filepath,pathUserDir):
+    problem = ""
+    with open(filepath, "r") as f:
+        problem = f.read()
+    with open(f"{pathUserDir}/tsp.txt", "w") as f2:
+        f2.write(f"here is the tsp file to solve {Path(filepath).stem}:\n")
+        f2.write(problem)
+
+def genFullPrompt(OutputPath,filepath,pathSystem="prompts/text/system.txt",pathUserDir="prompts/text/userInput"):
+    addProblemFile(filepath,pathUserDir)
+    genPromptFromText(pathSystem,pathUserDir,OutputPath)
+    return OutputPath
 
 
 
-genPromptFromText("prompts/text/system.txt","prompts/text/userInput","prompts/text/output/test.json")
+if __name__ == "__main__":
+    genFullPrompt("prompts/text/output/test.json","instances/g/size10_0.csv","prompts/text/system.txt","prompts/text/userInput")
+

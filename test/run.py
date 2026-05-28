@@ -1,4 +1,6 @@
 
+import json
+from dpCall import callWrapper
 import os
 from helplkh import createParFileTsp
 from adapt import genCombandLKH
@@ -51,6 +53,16 @@ def storeResultsLKH(results,filepath,instancePath):
     
     with open(filepath, "a") as f:
         f.write(content)
+def addAIresults(aiResultPath,heurDir):
+    aiRes = {}
+    with open(aiResultPath, "r") as f:
+        aiRes = json.load(f)
+    for resFile in os.listdir(heurDir):
+        resF = Path(resFile).stem
+        with open(f"{heurDir}/{resFile}", "a") as f2:
+
+
+
     
 def storeFullResults(resultsComb,resultsLKH,filepath,instancePathComb,instancePathLKH):
     
@@ -73,12 +85,14 @@ def run(name,projectName,size):
     resultsComb = transformDistances(resultsComb,fcsv)
     resultsLKH = transformDistances(resultsLKH,fcsv)
     storeFullResults(resultsComb,resultsLKH,f"TSPRESULTS/{projectName}/{name}.txt",fcsv,ftsp)
+    callWrapper(fcsv,projectName)
     
     print(result.stdout)
     print(result.stderr)
 
 if __name__ == "__main__":
-    for i in range(10):
-        run(f"size10_{i}","size10",10)
+    for i in range(30):
+        run(f"size30_{i}","size30",30)
+        print(f"done: {i}")
 
     

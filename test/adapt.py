@@ -1,4 +1,7 @@
 
+from pathlib import Path
+import os
+import json
 import numpy as np
 import math
 import pandas as pd
@@ -147,6 +150,16 @@ def transformDistances(results,filepathProblem):
         print(results[name]["distance"])
         print("test")
     return results
+
+def addAIresults(aiResultPath,heurDir):
+    aiRes = {}
+    with open(aiResultPath, "r") as f:
+        aiRes = json.load(f)
+    for resFile in os.listdir(heurDir):
+        resF = Path(resFile).stem
+        
+    
+
 
 if __name__ == "__main__":
     f1,f2 = genCombandLKH(30,"test")

@@ -11,3 +11,5 @@ GLKH-1.1/
 .env
 *.png
 TSPRESULTS/
+instances/
+airun/

@@ -9,6 +9,6 @@
     },
     {
         "role": "user",
-        "content": "here is the tsp file to solve size10_0:\nx,y\n48,74\n24,15\n29,75\n46,68\n60,64\n38,58\n87,89\n57,40\n38,10\n88,48\n"
+        "content": "here is the tsp file to solve size30_29:\nx,y\n92,55\n43,93\n0,70\n89,13\n37,76\n26,3\n87,48\n43,1\n6,69\n80,20\n47,87\n76,67\n1,67\n12,91\n26,53\n9,32\n29,58\n97,19\n12,35\n38,19\n44,26\n87,4\n40,66\n4,26\n58,82\n85,32\n41,0\n82,56\n29,44\n75,26\n"
     }
 ]

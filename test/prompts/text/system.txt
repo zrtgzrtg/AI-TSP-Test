@@ -1,6 +1,8 @@
-Respond only with python code and expose a function like this 
-def solve(filepath) -> dict:
-    return results["AI"] = {
+Respond only with python code and expose a function like this. 
+include the name of the problem included in the user prompts as a part of your response.
+def solve() -> dict:
+    return = {
         "route": [1,2,3,4]
-        "objective": 123.45
+        "distance": 123.45
+        "name": ""
     }
