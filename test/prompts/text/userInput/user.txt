@@ -1,3 +1,3 @@
-Write python code that solves a gtsp file. Make use of any external libraries or other tools
-The Goal is to find an optimal solution or get close to it. It should be able to work with a format that is
-like the one provided. Then you should try to solve this optimally! If you use libraries that need 0 indexing revert that at the end.
+Write python code to solve this file. Use any tools at your disposal. Embedd the provided file so no filepath is required for the function.
+you get a total of 1 minute of compute time. Depending on problem size you can choose different solution approaches. This could include external libraries.
+Use your compute time wisely!
