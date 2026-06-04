@@ -37,5 +37,5 @@ def genFullPrompt(OutputPath,filepath,pathSystem="prompts/text/system.txt",pathU
 
 
 if __name__ == "__main__":
-    genFullPrompt("prompts/text/output/test.json","instances/g/size10_0.csv","prompts/text/system.txt","prompts/text/userInput")
+    genFullPrompt("prompts/text/output/test.json","instances/g/size15_0.csv","prompts/text/system.txt","prompts/text/userInput")
 

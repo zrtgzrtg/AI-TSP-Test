@@ -5,7 +5,7 @@
     },
     {
         "role": "user",
-        "content": "Write python code to solve this file. Use any tools at your disposal. Embedd the provided file so no filepath is required for the function.\nyou get a total of 1 minute of compute time. Depending on problem size you can choose different solution approaches. This could include external libraries.\nUse your compute time wisely!\n"
+        "content": "Write python code to solve this file. Use any tools at your disposal. Embedd the provided file so no filepath is required for the function.\nyou get a total of 5 minutes of compute time. Depending on problem size you can choose different solution approaches. This could include external libraries.\nUse your compute time wisely!\n"
     },
     {
         "role": "user",

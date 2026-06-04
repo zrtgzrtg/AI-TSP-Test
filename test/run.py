@@ -3,7 +3,7 @@ import json
 from dpCall import callWrapper
 import os
 from helplkh import createParFileTsp
-from adapt import genCombandLKH
+from adapt import genCombandLKH,readInstancesCombandLKH
 from combinatorial import runTspHeuristic,storeResults
 from adapt import transformDistances
 import subprocess
@@ -45,7 +45,6 @@ def parse_lkh_tour(tour_file):
 def storeResultsLKH(results,filepath,instancePath):
     content = ""
     name = "LKH"
-    content += f"Instance File: {instancePath}\n"
     content += f"Heuristic: {name}\n"
     content += f"Distance: {results[name]['distance']}\n"
     content += f"Route: {results[name]['route']}\n"
@@ -60,18 +59,21 @@ def addAIresults(aiResultPath,heurDir):
     for resFile in os.listdir(heurDir):
         resF = Path(resFile).stem
         with open(f"{heurDir}/{resFile}", "a") as f2:
+            continue
 
 
 
     
 def storeFullResults(resultsComb,resultsLKH,filepath,instancePathComb,instancePathLKH):
-    
     storeResults(resultsComb,filepath,instancePathComb)
     storeResultsLKH(resultsLKH,filepath,instancePathLKH)
  
 
-def run(name,projectName,size):
-    fcsv,ftsp = genCombandLKH(size,name)
+def run(name,projectName,size,randomRun=True):
+    if randomRun:
+        fcsv,ftsp = genCombandLKH(size,name)
+    else:
+        fcsv,ftsp = readInstancesCombandLKH(name)
     resultsComb = runTspHeuristic(fcsv)
 
     filepathLKHTour = createParFileTsp(name)
@@ -85,14 +87,15 @@ def run(name,projectName,size):
     resultsComb = transformDistances(resultsComb,fcsv)
     resultsLKH = transformDistances(resultsLKH,fcsv)
     storeFullResults(resultsComb,resultsLKH,f"TSPRESULTS/{projectName}/{name}.txt",fcsv,ftsp)
-    callWrapper(fcsv,projectName)
+    if randomRun:  
+        callWrapper(fcsv,projectName)
     
     print(result.stdout)
     print(result.stderr)
 
 if __name__ == "__main__":
     for i in range(30):
-        run(f"size30_{i}","size30",30)
+        run(f"size15_{i}","size15",15)
         print(f"done: {i}")
 
     

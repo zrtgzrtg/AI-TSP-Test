@@ -44,13 +44,13 @@ def runTspHeuristic(filepath, exclude=None):
             "route": route,
             "distance": distance
         }
+        print(f"done: {name} for {filepath}")
 
     return results
 
 def storeResults(results,filepath,instancePath):
     print(results)
     content = ""
-    content += f"Instance File: {instancePath}\n"
     for name in algoIndex:
         content += f"Heuristic: {name}\n"
         content += f"Distance: {results[name]['distance']}\n"

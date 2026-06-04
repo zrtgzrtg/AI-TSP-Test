@@ -1,0 +1,469 @@
+
+size40_2.txt
+------------
+NN      : AI distance = 557.00, NN distance = 521.00, improvement = -6.91%
+CI      : AI distance = 557.00, CI distance = 532.00, improvement = -4.70%
+FI      : AI distance = 557.00, FI distance = 506.00, improvement = -10.08%
+NN2opt  : AI distance = 557.00, NN2opt distance = 507.00, improvement = -9.86%
+CI2opt  : AI distance = 557.00, CI2opt distance = 506.00, improvement = -10.08%
+FI2opt  : AI distance = 557.00, FI2opt distance = 506.00, improvement = -10.08%
+LKH     : AI distance = 557.00, LKH distance = 506.00, improvement = -10.08%
+Average improvement for file: -8.83%
+Filtered average for file (excluding AI differing more than 25.00%): -8.83%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_28.txt
+-------------
+NN      : AI distance = 504.00, NN distance = 504.00, improvement = 0.00%
+CI      : AI distance = 504.00, CI distance = 539.00, improvement = 6.49%
+FI      : AI distance = 504.00, FI distance = 502.00, improvement = -0.40%
+NN2opt  : AI distance = 504.00, NN2opt distance = 504.00, improvement = 0.00%
+CI2opt  : AI distance = 504.00, CI2opt distance = 524.00, improvement = 3.82%
+FI2opt  : AI distance = 504.00, FI2opt distance = 502.00, improvement = -0.40%
+LKH     : AI distance = 504.00, LKH distance = 502.00, improvement = -0.40%
+Average improvement for file: 1.30%
+Filtered average for file (excluding AI differing more than 25.00%): 1.30%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_14.txt
+-------------
+NN      : AI distance = failed, NN distance = 548, improvement = failed [excluded: failed]
+CI      : AI distance = failed, CI distance = 518, improvement = failed [excluded: failed]
+FI      : AI distance = failed, FI distance = 506, improvement = failed [excluded: failed]
+NN2opt  : AI distance = failed, NN2opt distance = 500, improvement = failed [excluded: failed]
+CI2opt  : AI distance = failed, CI2opt distance = 502, improvement = failed [excluded: failed]
+FI2opt  : AI distance = failed, FI2opt distance = 500, improvement = failed [excluded: failed]
+LKH     : AI distance = failed, LKH distance = 500, improvement = failed [excluded: failed]
+Average improvement for file: No valid values
+Filtered average for file (excluding AI differing more than 25.00%): No values left
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 7
+
+size40_9.txt
+------------
+NN      : AI distance = 516.00, NN distance = 563.00, improvement = 8.35%
+CI      : AI distance = 516.00, CI distance = 533.00, improvement = 3.19%
+FI      : AI distance = 516.00, FI distance = 516.00, improvement = 0.00%
+NN2opt  : AI distance = 516.00, NN2opt distance = 512.00, improvement = -0.78%
+CI2opt  : AI distance = 516.00, CI2opt distance = 512.00, improvement = -0.78%
+FI2opt  : AI distance = 516.00, FI2opt distance = 516.00, improvement = 0.00%
+LKH     : AI distance = 516.00, LKH distance = 512.00, improvement = -0.78%
+Average improvement for file: 1.31%
+Filtered average for file (excluding AI differing more than 25.00%): 1.31%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_3.txt
+------------
+NN      : AI distance = 544.00, NN distance = 588.00, improvement = 7.48%
+CI      : AI distance = 544.00, CI distance = 593.00, improvement = 8.26%
+FI      : AI distance = 544.00, FI distance = 548.00, improvement = 0.73%
+NN2opt  : AI distance = 544.00, NN2opt distance = 546.00, improvement = 0.37%
+CI2opt  : AI distance = 544.00, CI2opt distance = 570.00, improvement = 4.56%
+FI2opt  : AI distance = 544.00, FI2opt distance = 548.00, improvement = 0.73%
+LKH     : AI distance = 544.00, LKH distance = 543.00, improvement = -0.18%
+Average improvement for file: 3.14%
+Filtered average for file (excluding AI differing more than 25.00%): 3.14%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_15.txt
+-------------
+NN      : AI distance = 465.00, NN distance = 511.00, improvement = 9.00%
+CI      : AI distance = 465.00, CI distance = 521.00, improvement = 10.75%
+FI      : AI distance = 465.00, FI distance = 463.00, improvement = -0.43%
+NN2opt  : AI distance = 465.00, NN2opt distance = 465.00, improvement = 0.00%
+CI2opt  : AI distance = 465.00, CI2opt distance = 508.00, improvement = 8.46%
+FI2opt  : AI distance = 465.00, FI2opt distance = 463.00, improvement = -0.43%
+LKH     : AI distance = 465.00, LKH distance = 463.00, improvement = -0.43%
+Average improvement for file: 3.85%
+Filtered average for file (excluding AI differing more than 25.00%): 3.85%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_5.txt
+------------
+NN      : AI distance = 549.00, NN distance = 578.00, improvement = 5.02%
+CI      : AI distance = 549.00, CI distance = 652.00, improvement = 15.80%
+FI      : AI distance = 549.00, FI distance = 549.00, improvement = 0.00%
+NN2opt  : AI distance = 549.00, NN2opt distance = 549.00, improvement = 0.00%
+CI2opt  : AI distance = 549.00, CI2opt distance = 610.00, improvement = 10.00%
+FI2opt  : AI distance = 549.00, FI2opt distance = 549.00, improvement = 0.00%
+LKH     : AI distance = 549.00, LKH distance = 549.00, improvement = 0.00%
+Average improvement for file: 4.40%
+Filtered average for file (excluding AI differing more than 25.00%): 4.40%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_8.txt
+------------
+NN      : AI distance = 561.00, NN distance = 573.00, improvement = 2.09%
+CI      : AI distance = 561.00, CI distance = 548.00, improvement = -2.37%
+FI      : AI distance = 561.00, FI distance = 508.00, improvement = -10.43%
+NN2opt  : AI distance = 561.00, NN2opt distance = 506.00, improvement = -10.87%
+CI2opt  : AI distance = 561.00, CI2opt distance = 531.00, improvement = -5.65%
+FI2opt  : AI distance = 561.00, FI2opt distance = 506.00, improvement = -10.87%
+LKH     : AI distance = 561.00, LKH distance = 506.00, improvement = -10.87%
+Average improvement for file: -7.00%
+Filtered average for file (excluding AI differing more than 25.00%): -7.00%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_22.txt
+-------------
+NN      : AI distance = 495.00, NN distance = 553.00, improvement = 10.49%
+CI      : AI distance = 495.00, CI distance = 623.00, improvement = 20.55%
+FI      : AI distance = 495.00, FI distance = 497.00, improvement = 0.40%
+NN2opt  : AI distance = 495.00, NN2opt distance = 495.00, improvement = 0.00%
+CI2opt  : AI distance = 495.00, CI2opt distance = 521.00, improvement = 4.99%
+FI2opt  : AI distance = 495.00, FI2opt distance = 495.00, improvement = 0.00%
+LKH     : AI distance = 495.00, LKH distance = 495.00, improvement = 0.00%
+Average improvement for file: 5.20%
+Filtered average for file (excluding AI differing more than 25.00%): 5.20%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_27.txt
+-------------
+NN      : AI distance = 541.00, NN distance = 556.00, improvement = 2.70%
+CI      : AI distance = 541.00, CI distance = 546.00, improvement = 0.92%
+FI      : AI distance = 541.00, FI distance = 510.00, improvement = -6.08%
+NN2opt  : AI distance = 541.00, NN2opt distance = 510.00, improvement = -6.08%
+CI2opt  : AI distance = 541.00, CI2opt distance = 524.00, improvement = -3.24%
+FI2opt  : AI distance = 541.00, FI2opt distance = 510.00, improvement = -6.08%
+LKH     : AI distance = 541.00, LKH distance = 510.00, improvement = -6.08%
+Average improvement for file: -3.42%
+Filtered average for file (excluding AI differing more than 25.00%): -3.42%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_19.txt
+-------------
+NN      : AI distance = 556.00, NN distance = 609.00, improvement = 8.70%
+CI      : AI distance = 556.00, CI distance = 597.00, improvement = 6.87%
+FI      : AI distance = 556.00, FI distance = 531.00, improvement = -4.71%
+NN2opt  : AI distance = 556.00, NN2opt distance = 531.00, improvement = -4.71%
+CI2opt  : AI distance = 556.00, CI2opt distance = 590.00, improvement = 5.76%
+FI2opt  : AI distance = 556.00, FI2opt distance = 531.00, improvement = -4.71%
+LKH     : AI distance = 556.00, LKH distance = 531.00, improvement = -4.71%
+Average improvement for file: 0.36%
+Filtered average for file (excluding AI differing more than 25.00%): 0.36%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_17.txt
+-------------
+NN      : AI distance = 2270.00, NN distance = 546.00, improvement = -315.75% [excluded: cutoff]
+CI      : AI distance = 2270.00, CI distance = 553.00, improvement = -310.49% [excluded: cutoff]
+FI      : AI distance = 2270.00, FI distance = 526.00, improvement = -331.56% [excluded: cutoff]
+NN2opt  : AI distance = 2270.00, NN2opt distance = 526.00, improvement = -331.56% [excluded: cutoff]
+CI2opt  : AI distance = 2270.00, CI2opt distance = 548.00, improvement = -314.23% [excluded: cutoff]
+FI2opt  : AI distance = 2270.00, FI2opt distance = 526.00, improvement = -331.56% [excluded: cutoff]
+LKH     : AI distance = 2270.00, LKH distance = 526.00, improvement = -331.56% [excluded: cutoff]
+Average improvement for file: -323.82%
+Filtered average for file (excluding AI differing more than 25.00%): No values left
+Excluded comparisons for file by cutoff: 7
+Excluded comparisons for file by failed result: 0
+
+size40_16.txt
+-------------
+NN      : AI distance = 565.00, NN distance = 547.00, improvement = -3.29%
+CI      : AI distance = 565.00, CI distance = 538.00, improvement = -5.02%
+FI      : AI distance = 565.00, FI distance = 513.00, improvement = -10.14%
+NN2opt  : AI distance = 565.00, NN2opt distance = 520.00, improvement = -8.65%
+CI2opt  : AI distance = 565.00, CI2opt distance = 513.00, improvement = -10.14%
+FI2opt  : AI distance = 565.00, FI2opt distance = 513.00, improvement = -10.14%
+LKH     : AI distance = 565.00, LKH distance = 512.00, improvement = -10.35%
+Average improvement for file: -8.25%
+Filtered average for file (excluding AI differing more than 25.00%): -8.25%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_21.txt
+-------------
+NN      : AI distance = 565.00, NN distance = 635.00, improvement = 11.02%
+CI      : AI distance = 565.00, CI distance = 652.00, improvement = 13.34%
+FI      : AI distance = 565.00, FI distance = 573.00, improvement = 1.40%
+NN2opt  : AI distance = 565.00, NN2opt distance = 573.00, improvement = 1.40%
+CI2opt  : AI distance = 565.00, CI2opt distance = 617.00, improvement = 8.43%
+FI2opt  : AI distance = 565.00, FI2opt distance = 572.00, improvement = 1.22%
+LKH     : AI distance = 565.00, LKH distance = 564.00, improvement = -0.18%
+Average improvement for file: 5.23%
+Filtered average for file (excluding AI differing more than 25.00%): 5.23%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_6.txt
+------------
+NN      : AI distance = failed, NN distance = 508, improvement = failed [excluded: failed]
+CI      : AI distance = failed, CI distance = 558, improvement = failed [excluded: failed]
+FI      : AI distance = failed, FI distance = 490, improvement = failed [excluded: failed]
+NN2opt  : AI distance = failed, NN2opt distance = 490, improvement = failed [excluded: failed]
+CI2opt  : AI distance = failed, CI2opt distance = 498, improvement = failed [excluded: failed]
+FI2opt  : AI distance = failed, FI2opt distance = 490, improvement = failed [excluded: failed]
+LKH     : AI distance = failed, LKH distance = 487, improvement = failed [excluded: failed]
+Average improvement for file: No valid values
+Filtered average for file (excluding AI differing more than 25.00%): No values left
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 7
+
+size40_24.txt
+-------------
+NN      : AI distance = 511.00, NN distance = 566.00, improvement = 9.72%
+CI      : AI distance = 511.00, CI distance = 593.00, improvement = 13.83%
+FI      : AI distance = 511.00, FI distance = 511.00, improvement = 0.00%
+NN2opt  : AI distance = 511.00, NN2opt distance = 511.00, improvement = 0.00%
+CI2opt  : AI distance = 511.00, CI2opt distance = 565.00, improvement = 9.56%
+FI2opt  : AI distance = 511.00, FI2opt distance = 511.00, improvement = 0.00%
+LKH     : AI distance = 511.00, LKH distance = 511.00, improvement = 0.00%
+Average improvement for file: 4.73%
+Filtered average for file (excluding AI differing more than 25.00%): 4.73%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_20.txt
+-------------
+NN      : AI distance = 578.00, NN distance = 588.00, improvement = 1.70%
+CI      : AI distance = 578.00, CI distance = 644.00, improvement = 10.25%
+FI      : AI distance = 578.00, FI distance = 559.00, improvement = -3.40%
+NN2opt  : AI distance = 578.00, NN2opt distance = 559.00, improvement = -3.40%
+CI2opt  : AI distance = 578.00, CI2opt distance = 589.00, improvement = 1.87%
+FI2opt  : AI distance = 578.00, FI2opt distance = 558.00, improvement = -3.58%
+LKH     : AI distance = 578.00, LKH distance = 554.00, improvement = -4.33%
+Average improvement for file: -0.13%
+Filtered average for file (excluding AI differing more than 25.00%): -0.13%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_13.txt
+-------------
+NN      : AI distance = 553.00, NN distance = 568.00, improvement = 2.64%
+CI      : AI distance = 553.00, CI distance = 592.00, improvement = 6.59%
+FI      : AI distance = 553.00, FI distance = 524.00, improvement = -5.53%
+NN2opt  : AI distance = 553.00, NN2opt distance = 536.00, improvement = -3.17%
+CI2opt  : AI distance = 553.00, CI2opt distance = 557.00, improvement = 0.72%
+FI2opt  : AI distance = 553.00, FI2opt distance = 524.00, improvement = -5.53%
+LKH     : AI distance = 553.00, LKH distance = 524.00, improvement = -5.53%
+Average improvement for file: -1.40%
+Filtered average for file (excluding AI differing more than 25.00%): -1.40%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_23.txt
+-------------
+NN      : AI distance = 524.00, NN distance = 548.00, improvement = 4.38%
+CI      : AI distance = 524.00, CI distance = 585.00, improvement = 10.43%
+FI      : AI distance = 524.00, FI distance = 497.00, improvement = -5.43%
+NN2opt  : AI distance = 524.00, NN2opt distance = 494.00, improvement = -6.07%
+CI2opt  : AI distance = 524.00, CI2opt distance = 529.00, improvement = 0.95%
+FI2opt  : AI distance = 524.00, FI2opt distance = 494.00, improvement = -6.07%
+LKH     : AI distance = 524.00, LKH distance = 494.00, improvement = -6.07%
+Average improvement for file: -1.13%
+Filtered average for file (excluding AI differing more than 25.00%): -1.13%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_29.txt
+-------------
+NN      : AI distance = failed, NN distance = 584, improvement = failed [excluded: failed]
+CI      : AI distance = failed, CI distance = 562, improvement = failed [excluded: failed]
+FI      : AI distance = failed, FI distance = 539, improvement = failed [excluded: failed]
+NN2opt  : AI distance = failed, NN2opt distance = 531, improvement = failed [excluded: failed]
+CI2opt  : AI distance = failed, CI2opt distance = 549, improvement = failed [excluded: failed]
+FI2opt  : AI distance = failed, FI2opt distance = 536, improvement = failed [excluded: failed]
+LKH     : AI distance = failed, LKH distance = 531, improvement = failed [excluded: failed]
+Average improvement for file: No valid values
+Filtered average for file (excluding AI differing more than 25.00%): No values left
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 7
+
+size40_25.txt
+-------------
+NN      : AI distance = 482.00, NN distance = 537.00, improvement = 10.24%
+CI      : AI distance = 482.00, CI distance = 572.00, improvement = 15.73%
+FI      : AI distance = 482.00, FI distance = 482.00, improvement = 0.00%
+NN2opt  : AI distance = 482.00, NN2opt distance = 483.00, improvement = 0.21%
+CI2opt  : AI distance = 482.00, CI2opt distance = 514.00, improvement = 6.23%
+FI2opt  : AI distance = 482.00, FI2opt distance = 482.00, improvement = 0.00%
+LKH     : AI distance = 482.00, LKH distance = 482.00, improvement = 0.00%
+Average improvement for file: 4.63%
+Filtered average for file (excluding AI differing more than 25.00%): 4.63%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_12.txt
+-------------
+NN      : AI distance = 481.00, NN distance = 515.00, improvement = 6.60%
+CI      : AI distance = 481.00, CI distance = 508.00, improvement = 5.31%
+FI      : AI distance = 481.00, FI distance = 474.00, improvement = -1.48%
+NN2opt  : AI distance = 481.00, NN2opt distance = 473.00, improvement = -1.69%
+CI2opt  : AI distance = 481.00, CI2opt distance = 504.00, improvement = 4.56%
+FI2opt  : AI distance = 481.00, FI2opt distance = 473.00, improvement = -1.69%
+LKH     : AI distance = 481.00, LKH distance = 473.00, improvement = -1.69%
+Average improvement for file: 1.42%
+Filtered average for file (excluding AI differing more than 25.00%): 1.42%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_26.txt
+-------------
+NN      : AI distance = 546.00, NN distance = 591.00, improvement = 7.61%
+CI      : AI distance = 546.00, CI distance = 588.00, improvement = 7.14%
+FI      : AI distance = 546.00, FI distance = 540.00, improvement = -1.11%
+NN2opt  : AI distance = 546.00, NN2opt distance = 533.00, improvement = -2.44%
+CI2opt  : AI distance = 546.00, CI2opt distance = 570.00, improvement = 4.21%
+FI2opt  : AI distance = 546.00, FI2opt distance = 535.00, improvement = -2.06%
+LKH     : AI distance = 546.00, LKH distance = 533.00, improvement = -2.44%
+Average improvement for file: 1.56%
+Filtered average for file (excluding AI differing more than 25.00%): 1.56%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_11.txt
+-------------
+NN      : AI distance = 570.00, NN distance = 618.00, improvement = 7.77%
+CI      : AI distance = 570.00, CI distance = 657.00, improvement = 13.24%
+FI      : AI distance = 570.00, FI distance = 581.00, improvement = 1.89%
+NN2opt  : AI distance = 570.00, NN2opt distance = 578.00, improvement = 1.38%
+CI2opt  : AI distance = 570.00, CI2opt distance = 616.00, improvement = 7.47%
+FI2opt  : AI distance = 570.00, FI2opt distance = 579.00, improvement = 1.55%
+LKH     : AI distance = 570.00, LKH distance = 570.00, improvement = 0.00%
+Average improvement for file: 4.76%
+Filtered average for file (excluding AI differing more than 25.00%): 4.76%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_7.txt
+------------
+NN      : AI distance = 568.00, NN distance = 613.00, improvement = 7.34%
+CI      : AI distance = 568.00, CI distance = 624.00, improvement = 8.97%
+FI      : AI distance = 568.00, FI distance = 558.00, improvement = -1.79%
+NN2opt  : AI distance = 568.00, NN2opt distance = 567.00, improvement = -0.18%
+CI2opt  : AI distance = 568.00, CI2opt distance = 582.00, improvement = 2.41%
+FI2opt  : AI distance = 568.00, FI2opt distance = 558.00, improvement = -1.79%
+LKH     : AI distance = 568.00, LKH distance = 557.00, improvement = -1.97%
+Average improvement for file: 1.86%
+Filtered average for file (excluding AI differing more than 25.00%): 1.86%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_4.txt
+------------
+NN      : AI distance = 543.00, NN distance = 592.00, improvement = 8.28%
+CI      : AI distance = 543.00, CI distance = 600.00, improvement = 9.50%
+FI      : AI distance = 543.00, FI distance = 546.00, improvement = 0.55%
+NN2opt  : AI distance = 543.00, NN2opt distance = 545.00, improvement = 0.37%
+CI2opt  : AI distance = 543.00, CI2opt distance = 581.00, improvement = 6.54%
+FI2opt  : AI distance = 543.00, FI2opt distance = 546.00, improvement = 0.55%
+LKH     : AI distance = 543.00, LKH distance = 543.00, improvement = 0.00%
+Average improvement for file: 3.68%
+Filtered average for file (excluding AI differing more than 25.00%): 3.68%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_18.txt
+-------------
+NN      : AI distance = 531.00, NN distance = 550.00, improvement = 3.45%
+CI      : AI distance = 531.00, CI distance = 585.00, improvement = 9.23%
+FI      : AI distance = 531.00, FI distance = 519.00, improvement = -2.31%
+NN2opt  : AI distance = 531.00, NN2opt distance = 518.00, improvement = -2.51%
+CI2opt  : AI distance = 531.00, CI2opt distance = 534.00, improvement = 0.56%
+FI2opt  : AI distance = 531.00, FI2opt distance = 518.00, improvement = -2.51%
+LKH     : AI distance = 531.00, LKH distance = 518.00, improvement = -2.51%
+Average improvement for file: 0.49%
+Filtered average for file (excluding AI differing more than 25.00%): 0.49%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_1.txt
+------------
+NN      : AI distance = 509.00, NN distance = 547.00, improvement = 6.95%
+CI      : AI distance = 509.00, CI distance = 555.00, improvement = 8.29%
+FI      : AI distance = 509.00, FI distance = 511.00, improvement = 0.39%
+NN2opt  : AI distance = 509.00, NN2opt distance = 511.00, improvement = 0.39%
+CI2opt  : AI distance = 509.00, CI2opt distance = 517.00, improvement = 1.55%
+FI2opt  : AI distance = 509.00, FI2opt distance = 511.00, improvement = 0.39%
+LKH     : AI distance = 509.00, LKH distance = 509.00, improvement = 0.00%
+Average improvement for file: 2.57%
+Filtered average for file (excluding AI differing more than 25.00%): 2.57%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_0.txt
+------------
+NN      : AI distance = 581.00, NN distance = 595.00, improvement = 2.35%
+CI      : AI distance = 581.00, CI distance = 625.00, improvement = 7.04%
+FI      : AI distance = 581.00, FI distance = 544.00, improvement = -6.80%
+NN2opt  : AI distance = 581.00, NN2opt distance = 541.00, improvement = -7.39%
+CI2opt  : AI distance = 581.00, CI2opt distance = 552.00, improvement = -5.25%
+FI2opt  : AI distance = 581.00, FI2opt distance = 544.00, improvement = -6.80%
+LKH     : AI distance = 581.00, LKH distance = 541.00, improvement = -7.39%
+Average improvement for file: -3.46%
+Filtered average for file (excluding AI differing more than 25.00%): -3.46%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+size40_10.txt
+-------------
+NN      : AI distance = 546.00, NN distance = 566.00, improvement = 3.53%
+CI      : AI distance = 546.00, CI distance = 592.00, improvement = 7.77%
+FI      : AI distance = 546.00, FI distance = 545.00, improvement = -0.18%
+NN2opt  : AI distance = 546.00, NN2opt distance = 544.00, improvement = -0.37%
+CI2opt  : AI distance = 546.00, CI2opt distance = 564.00, improvement = 3.19%
+FI2opt  : AI distance = 546.00, FI2opt distance = 545.00, improvement = -0.18%
+LKH     : AI distance = 546.00, LKH distance = 543.00, improvement = -0.55%
+Average improvement for file: 1.89%
+Filtered average for file (excluding AI differing more than 25.00%): 1.89%
+Excluded comparisons for file by cutoff: 0
+Excluded comparisons for file by failed result: 0
+
+Average improvement by heuristic
+--------------------------------
+NN      : -6.61%
+CI      : -3.82%
+FI      : -14.69%
+NN2opt  : -14.65%
+CI2opt  : -9.39%
+FI2opt  : -14.82%
+LKH     : -15.12%
+
+Filtered average improvement by heuristic (excluding AI differing more than 25.00%)
+--------------------------------------------------------
+NN      : 5.28%
+CI      : 7.98%
+FI      : -2.50%
+NN2opt  : -2.46%
+CI2opt  : 2.33%
+FI2opt  : -2.63%
+LKH     : -2.94%
+
+Exclusion summary
+-----------------
+Total excluded by cutoff: 7
+Total excluded by failed result: 21
+
+Failed result occurrences
+-------------------------
+size40_14.txt / NN: AI failed
+size40_14.txt / CI: AI failed
+size40_14.txt / FI: AI failed
+size40_14.txt / NN2opt: AI failed
+size40_14.txt / CI2opt: AI failed
+size40_14.txt / FI2opt: AI failed
+size40_14.txt / LKH: AI failed
+size40_6.txt / NN: AI failed
+size40_6.txt / CI: AI failed
+size40_6.txt / FI: AI failed
+size40_6.txt / NN2opt: AI failed
+size40_6.txt / CI2opt: AI failed
+size40_6.txt / FI2opt: AI failed
+size40_6.txt / LKH: AI failed
+size40_29.txt / NN: AI failed
+size40_29.txt / CI: AI failed
+size40_29.txt / FI: AI failed
+size40_29.txt / NN2opt: AI failed
+size40_29.txt / CI2opt: AI failed
+size40_29.txt / FI2opt: AI failed
+size40_29.txt / LKH: AI failed

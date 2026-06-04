@@ -142,14 +142,24 @@ def genCombandLKH(size,name):
     filepathTsplib = tspCombinatorialTsplib(name,instance)
     return filepathCsv,filepathTsplib
 
-def transformDistances(results,filepathProblem):
+def readInstancesCombandLKH(name):
+    instdir = "instances/g/"
+    return  f"{instdir}{name}.csv",f"{instdir}{name}.tsp"
+
+
+def transformDistances(results,filepathProblem,resultStructure=True):
     coords = read_xy_coords(filepathProblem)
     dm = build_distance_matrix(coords)
-    for name in results:
-        results[name]["distance"] = route_length(results[name]["route"],dm)
-        print(results[name]["distance"])
-        print("test")
-    return results
+    if resultStructure:
+        for name in results:
+            results[name]["distance"] = route_length(results[name]["route"],dm)
+            print(results[name]["distance"])
+            print("test")
+        return results
+    else:
+        return route_length(results,dm)
+
+
 
 def addAIresults(aiResultPath,heurDir):
     aiRes = {}
