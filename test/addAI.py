@@ -56,5 +56,5 @@ def check_route(route, instance_name):
 
 if __name__ == "__main__":
     resDir = "TSPRESULTS"
-    addAIresults(f"{resDir}/size85.json",f"{resDir}/size85/",85)
+    addAIresults(f"{resDir}/size20.json",f"{resDir}/size20/",20)
 

@@ -95,7 +95,7 @@ def run(name,projectName,size,randomRun=True):
 
 if __name__ == "__main__":
     for i in range(30):
-        run(f"size15_{i}","size15",15)
+        run(f"size20_{i}","size20",20)
         print(f"done: {i}")
 
     

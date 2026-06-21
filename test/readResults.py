@@ -1,4 +1,5 @@
 
+
 from readResultsFunc import summarize_ai_improvement_all,print_ai_improvement_summary
 import json
 import re
@@ -55,8 +56,11 @@ def parse_heuristics(text: str) -> dict:
 if __name__ == "__main__":
     res = "TSPRESULTS/"
     problem = "size85"
+    size =85 
     results = transferJson(res,problem)
     print(results)
-    results2 = summarize_ai_improvement_all(results,"AI",25)
-    with open("FinalResults/results85.txt", "w") as f:
+    results2 = summarize_ai_improvement_all(results,"AI",85)
+    with open(f"FinalResults/results{size}.txt", "w") as f:
         print_ai_improvement_summary(results2,file=f)
+    with open(f"FinalResults/results{size}.json", "w") as f2:
+        json.dump(results2,f2,indent=4)
