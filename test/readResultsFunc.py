@@ -3,13 +3,15 @@ from __future__ import annotations
 
 def _is_failed_result(entry: dict) -> bool:
     """
-    A result is considered failed only if both distance and route
-    specifically contain the word 'failed'.
+    A result is considered failed if both distance and route
+    contain either 'failed' or 'routeError'.
     """
-    return (
-        str(entry.get("distance")).strip().lower() == "failed"
-        and str(entry.get("route")).strip().lower() == "failed"
-    )
+    distance = str(entry.get("distance")).strip().lower()
+    route = str(entry.get("route")).strip().lower()
+
+    failed_values = {"failed", "routeerror"}
+
+    return distance in failed_values and route in failed_values
 
 
 def summarize_ai_improvement_all(
@@ -45,7 +47,7 @@ def summarize_ai_improvement_all(
         A result is treated as failed if:
 
             distance == "failed"
-            route == "failed"
+            route == "failed" or route == "routeError"
     """
 
     full_summary = {}
@@ -180,6 +182,7 @@ def summarize_ai_improvement_all(
         average_improvement_by_heuristic
     )
 
+    print(worse_cutoff_pct)
     full_summary["filtered_average_improvement_by_heuristic"] = {
         "worse_cutoff_pct": worse_cutoff_pct,
         "averages": filtered_average_improvement_by_heuristic,

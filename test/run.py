@@ -8,6 +8,7 @@ from combinatorial import runTspHeuristic,storeResults
 from adapt import transformDistances
 import subprocess
 from pathlib import Path
+from copier import copyRes
 
 def parse_lkh_tour(tour_file):
     tour_file = Path(tour_file)
@@ -94,8 +95,9 @@ def run(name,projectName,size,randomRun=True):
     print(result.stderr)
 
 if __name__ == "__main__":
+    size = 100
     for i in range(30):
-        run(f"size20_{i}","size20",20)
+        run(f"size{size}_{i}",f"size{size}",size)
         print(f"done: {i}")
 
     

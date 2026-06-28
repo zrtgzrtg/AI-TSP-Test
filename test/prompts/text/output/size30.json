@@ -5,10 +5,10 @@
     },
     {
         "role": "user",
-        "content": "Write python code to solve this file. Use any tools at your disposal. Embedd the provided file so no filepath is required for the function.\nyou get a total of 1 minute of compute time. Depending on problem size you can choose different solution approaches. This could include external libraries.\nUse your compute time wisely!\n"
+        "content": "Write python code to solve this file. Use any tools at your disposal. Embedd the provided file so no filepath is required for the function.\nyou get a total of 5 minutes of compute time. Depending on problem size you can choose different solution approaches. This could include external libraries.\nUse your compute time wisely!\n"
     },
     {
         "role": "user",
-        "content": "here is the tsp file to solve size30_29:\nx,y\n92,55\n43,93\n0,70\n89,13\n37,76\n26,3\n87,48\n43,1\n6,69\n80,20\n47,87\n76,67\n1,67\n12,91\n26,53\n9,32\n29,58\n97,19\n12,35\n38,19\n44,26\n87,4\n40,66\n4,26\n58,82\n85,32\n41,0\n82,56\n29,44\n75,26\n"
+        "content": "here is the tsp file to solve size30_29:\nx,y\n19,42\n93,18\n6,74\n36,88\n90,85\n43,63\n51,42\n22,86\n33,89\n15,41\n70,36\n76,62\n99,16\n84,57\n44,7\n64,42\n31,31\n53,15\n7,93\n75,49\n98,0\n42,89\n28,91\n84,6\n18,13\n65,30\n27,66\n58,11\n64,12\n80,60\n"
     }
 ]

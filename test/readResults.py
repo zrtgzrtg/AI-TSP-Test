@@ -27,7 +27,7 @@ def parse_heuristics(text: str) -> dict:
     pattern = re.compile(
         r"Heuristic:\s*(?P<heuristic>\S+)\s*"
         r"Distance:\s*(?P<distance>[^\n]+)\s*"
-        r"Route:\s*(?P<route>(?:\[[^\]]*\])|failed)",
+        r"Route:\s*(?P<route>(?:\[[^\]]*\])|failed|routeError)",
         re.MULTILINE
     )
 
@@ -38,9 +38,12 @@ def parse_heuristics(text: str) -> dict:
         distance_raw = match.group("distance").strip()
         route_raw = match.group("route").strip()
 
-        if distance_raw.lower() == "failed" and route_raw.lower() == "failed":
-            distance = "failed"
-            route = "failed"
+        if (
+            distance_raw.lower() in ["failed", "routeerror"]
+            and route_raw.lower() in ["failed", "routeerror"]
+        ):
+            distance = distance_raw
+            route = route_raw
         else:
             distance = float(distance_raw) if "." in distance_raw else int(distance_raw)
             route = ast.literal_eval(route_raw)
@@ -50,16 +53,15 @@ def parse_heuristics(text: str) -> dict:
             "route": route
         }
 
-    return result        
+    return result
 
 
 if __name__ == "__main__":
     res = "TSPRESULTS/"
-    problem = "size85"
-    size =85 
-    results = transferJson(res,problem)
-    print(results)
-    results2 = summarize_ai_improvement_all(results,"AI",85)
+    size =  80
+    results = transferJson(res,f"size{size}")
+    results2 = summarize_ai_improvement_all(results,"AI",worse_cutoff_pct=30)
+    print_ai_improvement_summary(results2)
     with open(f"FinalResults/results{size}.txt", "w") as f:
         print_ai_improvement_summary(results2,file=f)
     with open(f"FinalResults/results{size}.json", "w") as f2:

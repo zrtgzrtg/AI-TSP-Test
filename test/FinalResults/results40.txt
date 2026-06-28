@@ -9,7 +9,7 @@ CI2opt  : AI distance = 557.00, CI2opt distance = 506.00, improvement = -10.08%
 FI2opt  : AI distance = 557.00, FI2opt distance = 506.00, improvement = -10.08%
 LKH     : AI distance = 557.00, LKH distance = 506.00, improvement = -10.08%
 Average improvement for file: -8.83%
-Filtered average for file (excluding AI differing more than 40.00%): -8.83%
+Filtered average for file (excluding AI differing more than 30.00%): -8.83%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -23,7 +23,7 @@ CI2opt  : AI distance = 504.00, CI2opt distance = 524.00, improvement = 3.82%
 FI2opt  : AI distance = 504.00, FI2opt distance = 502.00, improvement = -0.40%
 LKH     : AI distance = 504.00, LKH distance = 502.00, improvement = -0.40%
 Average improvement for file: 1.30%
-Filtered average for file (excluding AI differing more than 40.00%): 1.30%
+Filtered average for file (excluding AI differing more than 30.00%): 1.30%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -37,7 +37,7 @@ CI2opt  : AI distance = failed, CI2opt distance = 502, improvement = failed [exc
 FI2opt  : AI distance = failed, FI2opt distance = 500, improvement = failed [excluded: failed]
 LKH     : AI distance = failed, LKH distance = 500, improvement = failed [excluded: failed]
 Average improvement for file: No valid values
-Filtered average for file (excluding AI differing more than 40.00%): No values left
+Filtered average for file (excluding AI differing more than 30.00%): No values left
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 7
 
@@ -51,7 +51,7 @@ CI2opt  : AI distance = 516.00, CI2opt distance = 512.00, improvement = -0.78%
 FI2opt  : AI distance = 516.00, FI2opt distance = 516.00, improvement = 0.00%
 LKH     : AI distance = 516.00, LKH distance = 512.00, improvement = -0.78%
 Average improvement for file: 1.31%
-Filtered average for file (excluding AI differing more than 40.00%): 1.31%
+Filtered average for file (excluding AI differing more than 30.00%): 1.31%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -65,7 +65,7 @@ CI2opt  : AI distance = 544.00, CI2opt distance = 570.00, improvement = 4.56%
 FI2opt  : AI distance = 544.00, FI2opt distance = 548.00, improvement = 0.73%
 LKH     : AI distance = 544.00, LKH distance = 543.00, improvement = -0.18%
 Average improvement for file: 3.14%
-Filtered average for file (excluding AI differing more than 40.00%): 3.14%
+Filtered average for file (excluding AI differing more than 30.00%): 3.14%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -79,7 +79,7 @@ CI2opt  : AI distance = 465.00, CI2opt distance = 508.00, improvement = 8.46%
 FI2opt  : AI distance = 465.00, FI2opt distance = 463.00, improvement = -0.43%
 LKH     : AI distance = 465.00, LKH distance = 463.00, improvement = -0.43%
 Average improvement for file: 3.85%
-Filtered average for file (excluding AI differing more than 40.00%): 3.85%
+Filtered average for file (excluding AI differing more than 30.00%): 3.85%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -93,7 +93,7 @@ CI2opt  : AI distance = 549.00, CI2opt distance = 610.00, improvement = 10.00%
 FI2opt  : AI distance = 549.00, FI2opt distance = 549.00, improvement = 0.00%
 LKH     : AI distance = 549.00, LKH distance = 549.00, improvement = 0.00%
 Average improvement for file: 4.40%
-Filtered average for file (excluding AI differing more than 40.00%): 4.40%
+Filtered average for file (excluding AI differing more than 30.00%): 4.40%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -107,7 +107,7 @@ CI2opt  : AI distance = 561.00, CI2opt distance = 531.00, improvement = -5.65%
 FI2opt  : AI distance = 561.00, FI2opt distance = 506.00, improvement = -10.87%
 LKH     : AI distance = 561.00, LKH distance = 506.00, improvement = -10.87%
 Average improvement for file: -7.00%
-Filtered average for file (excluding AI differing more than 40.00%): -7.00%
+Filtered average for file (excluding AI differing more than 30.00%): -7.00%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -121,7 +121,7 @@ CI2opt  : AI distance = 495.00, CI2opt distance = 521.00, improvement = 4.99%
 FI2opt  : AI distance = 495.00, FI2opt distance = 495.00, improvement = 0.00%
 LKH     : AI distance = 495.00, LKH distance = 495.00, improvement = 0.00%
 Average improvement for file: 5.20%
-Filtered average for file (excluding AI differing more than 40.00%): 5.20%
+Filtered average for file (excluding AI differing more than 30.00%): 5.20%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -135,7 +135,7 @@ CI2opt  : AI distance = 541.00, CI2opt distance = 524.00, improvement = -3.24%
 FI2opt  : AI distance = 541.00, FI2opt distance = 510.00, improvement = -6.08%
 LKH     : AI distance = 541.00, LKH distance = 510.00, improvement = -6.08%
 Average improvement for file: -3.42%
-Filtered average for file (excluding AI differing more than 40.00%): -3.42%
+Filtered average for file (excluding AI differing more than 30.00%): -3.42%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -149,7 +149,7 @@ CI2opt  : AI distance = 556.00, CI2opt distance = 590.00, improvement = 5.76%
 FI2opt  : AI distance = 556.00, FI2opt distance = 531.00, improvement = -4.71%
 LKH     : AI distance = 556.00, LKH distance = 531.00, improvement = -4.71%
 Average improvement for file: 0.36%
-Filtered average for file (excluding AI differing more than 40.00%): 0.36%
+Filtered average for file (excluding AI differing more than 30.00%): 0.36%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -163,7 +163,7 @@ CI2opt  : AI distance = 2270.00, CI2opt distance = 548.00, improvement = -314.23
 FI2opt  : AI distance = 2270.00, FI2opt distance = 526.00, improvement = -331.56% [excluded: cutoff]
 LKH     : AI distance = 2270.00, LKH distance = 526.00, improvement = -331.56% [excluded: cutoff]
 Average improvement for file: -323.82%
-Filtered average for file (excluding AI differing more than 40.00%): No values left
+Filtered average for file (excluding AI differing more than 30.00%): No values left
 Excluded comparisons for file by cutoff: 7
 Excluded comparisons for file by failed result: 0
 
@@ -177,7 +177,7 @@ CI2opt  : AI distance = 565.00, CI2opt distance = 513.00, improvement = -10.14%
 FI2opt  : AI distance = 565.00, FI2opt distance = 513.00, improvement = -10.14%
 LKH     : AI distance = 565.00, LKH distance = 512.00, improvement = -10.35%
 Average improvement for file: -8.25%
-Filtered average for file (excluding AI differing more than 40.00%): -8.25%
+Filtered average for file (excluding AI differing more than 30.00%): -8.25%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -191,7 +191,7 @@ CI2opt  : AI distance = 565.00, CI2opt distance = 617.00, improvement = 8.43%
 FI2opt  : AI distance = 565.00, FI2opt distance = 572.00, improvement = 1.22%
 LKH     : AI distance = 565.00, LKH distance = 564.00, improvement = -0.18%
 Average improvement for file: 5.23%
-Filtered average for file (excluding AI differing more than 40.00%): 5.23%
+Filtered average for file (excluding AI differing more than 30.00%): 5.23%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -205,7 +205,7 @@ CI2opt  : AI distance = failed, CI2opt distance = 498, improvement = failed [exc
 FI2opt  : AI distance = failed, FI2opt distance = 490, improvement = failed [excluded: failed]
 LKH     : AI distance = failed, LKH distance = 487, improvement = failed [excluded: failed]
 Average improvement for file: No valid values
-Filtered average for file (excluding AI differing more than 40.00%): No values left
+Filtered average for file (excluding AI differing more than 30.00%): No values left
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 7
 
@@ -219,7 +219,7 @@ CI2opt  : AI distance = 511.00, CI2opt distance = 565.00, improvement = 9.56%
 FI2opt  : AI distance = 511.00, FI2opt distance = 511.00, improvement = 0.00%
 LKH     : AI distance = 511.00, LKH distance = 511.00, improvement = 0.00%
 Average improvement for file: 4.73%
-Filtered average for file (excluding AI differing more than 40.00%): 4.73%
+Filtered average for file (excluding AI differing more than 30.00%): 4.73%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -233,7 +233,7 @@ CI2opt  : AI distance = 578.00, CI2opt distance = 589.00, improvement = 1.87%
 FI2opt  : AI distance = 578.00, FI2opt distance = 558.00, improvement = -3.58%
 LKH     : AI distance = 578.00, LKH distance = 554.00, improvement = -4.33%
 Average improvement for file: -0.13%
-Filtered average for file (excluding AI differing more than 40.00%): -0.13%
+Filtered average for file (excluding AI differing more than 30.00%): -0.13%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -247,7 +247,7 @@ CI2opt  : AI distance = 553.00, CI2opt distance = 557.00, improvement = 0.72%
 FI2opt  : AI distance = 553.00, FI2opt distance = 524.00, improvement = -5.53%
 LKH     : AI distance = 553.00, LKH distance = 524.00, improvement = -5.53%
 Average improvement for file: -1.40%
-Filtered average for file (excluding AI differing more than 40.00%): -1.40%
+Filtered average for file (excluding AI differing more than 30.00%): -1.40%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -261,7 +261,7 @@ CI2opt  : AI distance = 524.00, CI2opt distance = 529.00, improvement = 0.95%
 FI2opt  : AI distance = 524.00, FI2opt distance = 494.00, improvement = -6.07%
 LKH     : AI distance = 524.00, LKH distance = 494.00, improvement = -6.07%
 Average improvement for file: -1.13%
-Filtered average for file (excluding AI differing more than 40.00%): -1.13%
+Filtered average for file (excluding AI differing more than 30.00%): -1.13%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -275,7 +275,7 @@ CI2opt  : AI distance = failed, CI2opt distance = 549, improvement = failed [exc
 FI2opt  : AI distance = failed, FI2opt distance = 536, improvement = failed [excluded: failed]
 LKH     : AI distance = failed, LKH distance = 531, improvement = failed [excluded: failed]
 Average improvement for file: No valid values
-Filtered average for file (excluding AI differing more than 40.00%): No values left
+Filtered average for file (excluding AI differing more than 30.00%): No values left
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 7
 
@@ -289,7 +289,7 @@ CI2opt  : AI distance = 482.00, CI2opt distance = 514.00, improvement = 6.23%
 FI2opt  : AI distance = 482.00, FI2opt distance = 482.00, improvement = 0.00%
 LKH     : AI distance = 482.00, LKH distance = 482.00, improvement = 0.00%
 Average improvement for file: 4.63%
-Filtered average for file (excluding AI differing more than 40.00%): 4.63%
+Filtered average for file (excluding AI differing more than 30.00%): 4.63%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -303,7 +303,7 @@ CI2opt  : AI distance = 481.00, CI2opt distance = 504.00, improvement = 4.56%
 FI2opt  : AI distance = 481.00, FI2opt distance = 473.00, improvement = -1.69%
 LKH     : AI distance = 481.00, LKH distance = 473.00, improvement = -1.69%
 Average improvement for file: 1.42%
-Filtered average for file (excluding AI differing more than 40.00%): 1.42%
+Filtered average for file (excluding AI differing more than 30.00%): 1.42%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -317,7 +317,7 @@ CI2opt  : AI distance = 546.00, CI2opt distance = 570.00, improvement = 4.21%
 FI2opt  : AI distance = 546.00, FI2opt distance = 535.00, improvement = -2.06%
 LKH     : AI distance = 546.00, LKH distance = 533.00, improvement = -2.44%
 Average improvement for file: 1.56%
-Filtered average for file (excluding AI differing more than 40.00%): 1.56%
+Filtered average for file (excluding AI differing more than 30.00%): 1.56%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -331,7 +331,7 @@ CI2opt  : AI distance = 570.00, CI2opt distance = 616.00, improvement = 7.47%
 FI2opt  : AI distance = 570.00, FI2opt distance = 579.00, improvement = 1.55%
 LKH     : AI distance = 570.00, LKH distance = 570.00, improvement = 0.00%
 Average improvement for file: 4.76%
-Filtered average for file (excluding AI differing more than 40.00%): 4.76%
+Filtered average for file (excluding AI differing more than 30.00%): 4.76%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -345,7 +345,7 @@ CI2opt  : AI distance = 568.00, CI2opt distance = 582.00, improvement = 2.41%
 FI2opt  : AI distance = 568.00, FI2opt distance = 558.00, improvement = -1.79%
 LKH     : AI distance = 568.00, LKH distance = 557.00, improvement = -1.97%
 Average improvement for file: 1.86%
-Filtered average for file (excluding AI differing more than 40.00%): 1.86%
+Filtered average for file (excluding AI differing more than 30.00%): 1.86%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -359,7 +359,7 @@ CI2opt  : AI distance = 543.00, CI2opt distance = 581.00, improvement = 6.54%
 FI2opt  : AI distance = 543.00, FI2opt distance = 546.00, improvement = 0.55%
 LKH     : AI distance = 543.00, LKH distance = 543.00, improvement = 0.00%
 Average improvement for file: 3.68%
-Filtered average for file (excluding AI differing more than 40.00%): 3.68%
+Filtered average for file (excluding AI differing more than 30.00%): 3.68%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -373,7 +373,7 @@ CI2opt  : AI distance = 531.00, CI2opt distance = 534.00, improvement = 0.56%
 FI2opt  : AI distance = 531.00, FI2opt distance = 518.00, improvement = -2.51%
 LKH     : AI distance = 531.00, LKH distance = 518.00, improvement = -2.51%
 Average improvement for file: 0.49%
-Filtered average for file (excluding AI differing more than 40.00%): 0.49%
+Filtered average for file (excluding AI differing more than 30.00%): 0.49%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -387,7 +387,7 @@ CI2opt  : AI distance = 509.00, CI2opt distance = 517.00, improvement = 1.55%
 FI2opt  : AI distance = 509.00, FI2opt distance = 511.00, improvement = 0.39%
 LKH     : AI distance = 509.00, LKH distance = 509.00, improvement = 0.00%
 Average improvement for file: 2.57%
-Filtered average for file (excluding AI differing more than 40.00%): 2.57%
+Filtered average for file (excluding AI differing more than 30.00%): 2.57%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -401,7 +401,7 @@ CI2opt  : AI distance = 581.00, CI2opt distance = 552.00, improvement = -5.25%
 FI2opt  : AI distance = 581.00, FI2opt distance = 544.00, improvement = -6.80%
 LKH     : AI distance = 581.00, LKH distance = 541.00, improvement = -7.39%
 Average improvement for file: -3.46%
-Filtered average for file (excluding AI differing more than 40.00%): -3.46%
+Filtered average for file (excluding AI differing more than 30.00%): -3.46%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -415,7 +415,7 @@ CI2opt  : AI distance = 546.00, CI2opt distance = 564.00, improvement = 3.19%
 FI2opt  : AI distance = 546.00, FI2opt distance = 545.00, improvement = -0.18%
 LKH     : AI distance = 546.00, LKH distance = 543.00, improvement = -0.55%
 Average improvement for file: 1.89%
-Filtered average for file (excluding AI differing more than 40.00%): 1.89%
+Filtered average for file (excluding AI differing more than 30.00%): 1.89%
 Excluded comparisons for file by cutoff: 0
 Excluded comparisons for file by failed result: 0
 
@@ -429,7 +429,7 @@ CI2opt  : -9.39%
 FI2opt  : -14.82%
 LKH     : -15.12%
 
-Filtered average improvement by heuristic (excluding AI differing more than 40.00%)
+Filtered average improvement by heuristic (excluding AI differing more than 30.00%)
 --------------------------------------------------------
 NN      : 5.28%
 CI      : 7.98%

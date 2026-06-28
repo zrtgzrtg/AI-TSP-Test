@@ -1,15 +1,13 @@
-
 import json
 from pathlib import Path
 import os
 from adapt import transformDistances
-
-
-def addAIresults(aiResultPath,heurDir,size):
+def printaddAIresults(aiResultPath,heurDir,size,checkFile):
     aiRes = {}
     with open(aiResultPath, "r") as f:
         aiRes = json.load(f)
     for resFile in os.listdir(heurDir):
+        print(resFile)
         resF = Path(resFile).stem
         distanceOrg = aiRes[resF]["distance"]
         print(distanceOrg)
@@ -33,9 +31,9 @@ def addAIresults(aiResultPath,heurDir,size):
                 distance = transformDistances(route,f"instances/g/{resF}.csv",False)
                 content += f"Distance: {distance}\n"
                 content += f"Route: {aiRes[resF]['route']}\n"
+        if resFile == checkFile:
+            break
             content += "\n"
-        with open(f"{heurDir}/{resFile}", "a") as f2:
-            f2.write(content)
 
 def fixRoute(route,size):
     if min(route) == 0:
@@ -72,14 +70,10 @@ def check_route(route, instance_name):
     print("last:", route[-1])
     print()
 
+
 if __name__ == "__main__":
     resDir = "TSPRESULTS"
-    #for size in range(15, 61, 5):
-        #addAIresults(
-            #f"{resDir}/size{size}.json",
-            #f"{resDir}/size{size}/",
-            #size
-        #)
-    size = 80
-    addAIresults(f"{resDir}/size{size}.json",f"{resDir}/size{size}/",size)
-
+    for i in range(15,61,5):
+        size = i
+        checkFile = "size35_5.txt"
+        printaddAIresults(f"{resDir}/size{size}.json",f"{resDir}/size{size}/",size,checkFile)

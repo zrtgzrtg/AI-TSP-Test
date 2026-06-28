@@ -14,3 +14,8 @@ TSPRESULTS/
 instances/
 airun/
 *.json
+stats/Bachelorarbeit/.Rproj.user
+*.zip
+stats/Bachelorarbeit/plots/
+stats/plots/
+stats/tables/

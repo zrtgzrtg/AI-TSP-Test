@@ -98,6 +98,7 @@ def route_length(cycle: list[int], D: np.ndarray) -> int:
         current_node = cycle[k]
         next_node = cycle[(k + 1) % len(cycle)]
         total += D[current_node, next_node]
+        print(total)
 
     return total
 
